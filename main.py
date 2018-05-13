@@ -36,7 +36,6 @@ temp = data[['Global_active_power','Voltage']]
 power = list(temp['Global_active_power'].get_values().flatten())
 voltage = list(temp['Voltage'].get_values().flatten())
 
-
 result = []
 for index in range(len(power) - sequence):
     # get the next n sequence data
