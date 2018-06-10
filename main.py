@@ -44,7 +44,6 @@ for index in range(len(power) - sequence):
         temp.append(data)
     result.append(temp)
 
-
 result = np.array(result)  # shape (2049230, 50)
 
 row = int(round(0.9 * result.shape[0]))
